@@ -47,7 +47,7 @@ where I have to optimize some code for performance.
 
 
 ### Summary:
-Getting Rust and especially Enzyme into the right shape for HPC applications is an ongoing process. 
+Getting Rust and especially oxide-enzyme into the right shape for HPC applications is an ongoing process. 
 After [two](https://github.com/tiberiusferreira/oxide-enzyme) [earlier](https://github.com/bytesnake/oxide-enzyme) attempts I feel like gsoc gave this iteration enough momentum to finally make oxide-enzyme a usefull tool for many HPC areas.
 It will be interesting to observe which new or existing applications will adopt Enzyme. 
 For the next big milestone here we probably want to analyze the growing amount of possibilities to write gpgpu kernels in Rust.
