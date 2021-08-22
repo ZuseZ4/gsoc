@@ -2,12 +2,12 @@
 A summary of my activities during gsoc 2021.
 
 ### Done:  
-- Enable [llvm-plugins](https://github.com/rust-lang/rust/pull/86267) on nightly (Enzyme _is_ an LLVM plugin, so this probably makes sense)  
-- Add [build flags](https://github.com/rust-lang/rust/pull/87297) to build LLVM with it's plugin interface and clang  
+- Enable [llvm-plugins](https://github.com/rust-lang/rust/pull/86267) on nightly (Enzyme _is_ an LLVM plugin, so this probably makes sense).  
+- Add [build flags](https://github.com/rust-lang/rust/pull/87297) to build LLVM with it's plugin interface and clang.  
 - Create [enzyme\_build](https://github.com/ZuseZ4/enzyme_build/commit/ee84fd20cf47a74581fc8a26ca1713539d529dba) which will build rustc/clang/enzyme/llvm with all the required flag's in the right configuration. 
 - Create [https://rust-ml.github.io/oxide-enzyme](https://rust-ml.github.io/oxide-enzyme) which should help users 
         with setting up Enzyme and picking the right functionality for their use-cases.  
-- Update [oxide-enzyme](https://github.com/rust-ml/oxide-enzyme).  
+- Update [oxide-enzyme](https://github.com/rust-ml/oxide-enzyme):  
     - Strip broken build support.  
     - Replace external deps like objcopy with LLVM functions.  
     - Reduce linux specific elements like Paths.  
@@ -25,7 +25,7 @@ A summary of my activities during gsoc 2021.
   - Pointing out how Enzyme will use which input variable.  
   - Assuring that input variables will be dropped safely if accessing them after an enzyme invocation is UB.  
   - Adding a simple way to configure how Enzyme will handle input variables.  
-  - Hide unsafe sections  
+  - Hide unsafe sections.  
 
 Reason: My understanding of Enzyme and the Rust build process improved during the gsoc period. Repeated iteration were helpful for the learning purpose but ended in a broken state. A new attempt will be done and added to oxide-enzyme as a subcrate.  
 Note: Some of these goals could probably be achieved cleaner by rustc modifications / integrations.  
