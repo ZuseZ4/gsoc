@@ -32,7 +32,7 @@ Note: Some of these goals could probably be achieved cleaner by rustc modificati
 Rust(c) however intents to not only support LLVM, but also GCC and other compilers as backend. This blocks some solutions, as they might not make sense when using a non-LLVM backend.  
 
 
-### Next steps:
+### Next Steps:
 After landing https://github.com/wsmoses/Enzyme/pull/307 we should be able to add more complex examples.
 In combination with new helper-macros we should also point out how users can efficiently use oxide-enzyme on larger crates.
 Porting [this](https://github.com/tiberiusferreira/oxide-enzyme/blob/master/src/main.rs) example of a neural network might be a good start.
