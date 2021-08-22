@@ -37,6 +37,14 @@ After landing https://github.com/wsmoses/Enzyme/pull/307 we should be able to ad
 In combination with new helper-macros we should also point out how users can efficiently use oxide-enzyme on larger crates.
 Porting [this](https://github.com/tiberiusferreira/oxide-enzyme/blob/master/src/main.rs) example of a neural network might be a good start.
 
+### Lessons Learned:
+While I had OS and compiler lectures in University, actually working with llvm, rustc and enzyme gave me a much better understanding of how things 
+work under the hood. I spent a significant amount on debugging and therefore learned how to use tools like nm and ldd 
+to figure out where the automated building process fails. 
+In combination with an HPC lecture and a performance [issue](https://github.com/rust-lang/rust/issues/85354) I encountered simultaneously 
+I used the last months to learn more about the optimizations which a compiler will apply. This will surely help me for the next time
+where I have to optimize some code for performance.
+
 
 ### Summary:
 Getting Rust and especially Enzyme into the right shape for HPC applications is an ongoing process. 
